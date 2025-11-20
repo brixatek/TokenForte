@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>TokenForte</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Adedotun Salami,TokenForte Contributors</Authors>
+    <Description>A comprehensive JWT validation library for .NET supporting multiple algorithms and key formats.</Description>
+    <PackageTags>jwt;validation;authentication;security;hmac;rsa;ecdsa;pss</PackageTags>
+    <PackageProjectUrl>https://github.com/brixatek/TokenForte</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/brixatek/TokenForte</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="TokenForte.Core\TokenForte.Core.csproj" />
+    <ProjectReference Include="TokenForte.Application\TokenForte.Application.csproj" />
+    <ProjectReference Include="TokenForte.Infrastructure\TokenForte.Infrastructure.csproj" />
+    <ProjectReference Include="TokenForte.Extensions\TokenForte.Extensions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.10.0" />
+  </ItemGroup>
+
+</Project>
