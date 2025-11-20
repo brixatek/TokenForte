@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36511.14 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenForte.Core", "TokenForte.Core\TokenForte.Core.csproj", "{1B51A787-B280-4857-9C27-D630057BF851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenForte.Infrastructure", "TokenForte.Infrastructure\TokenForte.Infrastructure.csproj", "{4489004B-CA20-4F33-87E6-0B84DF507DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenForte.Application", "TokenForte.Application\TokenForte.Application.csproj", "{DDCDC8B1-BF00-45D5-B5A7-7212930B2E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenForte.Extensions", "TokenForte.Extensions\TokenForte.Extensions.csproj", "{4389A3DD-CFFA-4671-86B9-F27F709E21E3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B51A787-B280-4857-9C27-D630057BF851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B51A787-B280-4857-9C27-D630057BF851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B51A787-B280-4857-9C27-D630057BF851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B51A787-B280-4857-9C27-D630057BF851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4489004B-CA20-4F33-87E6-0B84DF507DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4489004B-CA20-4F33-87E6-0B84DF507DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4489004B-CA20-4F33-87E6-0B84DF507DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4489004B-CA20-4F33-87E6-0B84DF507DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDCDC8B1-BF00-45D5-B5A7-7212930B2E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDCDC8B1-BF00-45D5-B5A7-7212930B2E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDCDC8B1-BF00-45D5-B5A7-7212930B2E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDCDC8B1-BF00-45D5-B5A7-7212930B2E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4389A3DD-CFFA-4671-86B9-F27F709E21E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4389A3DD-CFFA-4671-86B9-F27F709E21E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4389A3DD-CFFA-4671-86B9-F27F709E21E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4389A3DD-CFFA-4671-86B9-F27F709E21E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
